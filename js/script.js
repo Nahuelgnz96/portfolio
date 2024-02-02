@@ -68,11 +68,11 @@ btnEnviar.addEventListener('click', function() {
     setTimeout(function() {
         // Mostrar mensaje de éxito
         cargando.style.display = 'none';
-        /* exito.style.display = 'block'; */
+        exito.style.display = 'block';
 
         // Restaurar formulario después de 3 segundos
         setTimeout(function() {
-            /* exito.style.display = 'none'; */
+            exito.style.display = 'none';
             formulario.style.display = 'block';
         }, 3000);
     }, 2000); // Simulación de tiempo de envío del formulario
